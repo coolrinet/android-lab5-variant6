@@ -22,7 +22,13 @@ class MainActivity : AppCompatActivity() {
             }
 
             gasolineBrandRadioGroup.setOnCheckedChangeListener { _, checkedId ->
-                mainViewModel.changeCurrentGasolineBrand(checkedId)
+                val newGasolineBrandIndex = when (checkedId) {
+                    gasolineBrand92Radio.id -> 0
+                    gasolineBrand95Radio.id -> 1
+                    gasolineBrand98Radio.id -> 2
+                    else -> 0
+                }
+                mainViewModel.changeCurrentGasolineBrand(newGasolineBrandIndex)
             }
 
             calculateCostButton.setOnClickListener {
@@ -43,6 +49,10 @@ class MainActivity : AppCompatActivity() {
                     ).show()
                     return@setOnClickListener
                 }
+
+                val totalCost = mainViewModel.calculateTotalCost()
+                val intent = ResultActivity.newIntent(this@MainActivity, totalCost)
+                startActivity(intent)
             }
         }
     }
