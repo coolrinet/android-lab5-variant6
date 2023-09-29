@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Lab5Variant6</string>
+    <string name="number_of_liters">No. of liters</string>
+    <string name="gasoline_brands_label">Gasoline brand</string>
+    <string name="gasoline_brand_92">92 – 50 rub.</string>
+    <string name="gasoline_brand_95">95 – 55 rub.</string>
+    <string name="gasoline_brand_98">98 – 57 rub.</string>
+    <string name="calculate_cost">Calculate cost</string>
+    <string name="total_cost">Total cost = %1$.2f</string>
 </resources>
