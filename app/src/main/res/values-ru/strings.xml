@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="number_of_liters">Кол-во литров</string>
+    <string name="gasoline_brands_label">Марка бензина</string>
+    <string name="gasoline_brand_92">92 – 50 руб.</string>
+    <string name="gasoline_brand_95">95 – 55 руб.</string>
+    <string name="gasoline_brand_98">98 – 57 rub.</string>
+    <string name="calculate_cost">Рассчитать стоимость</string>
+    <string name="total_cost">Итоговая стоимость = %1$.2f руб.</string>
+</resources>
