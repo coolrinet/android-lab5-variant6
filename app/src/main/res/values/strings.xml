@@ -7,4 +7,6 @@
     <string name="gasoline_brand_98">98 – 57 rub.</string>
     <string name="calculate_cost">Calculate cost</string>
     <string name="total_cost">Total cost = %1$.2f rub.</string>
+    <string name="numbers_of_liters_not_specified_toast">Specify the number of liters!</string>
+    <string name="gasoline_brand_not_selected_toast">Choose a brand of gasoline!</string>
 </resources>

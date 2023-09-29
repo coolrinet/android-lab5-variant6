@@ -7,4 +7,6 @@
     <string name="gasoline_brand_98">98 – 57 rub.</string>
     <string name="calculate_cost">Рассчитать стоимость</string>
     <string name="total_cost">Итоговая стоимость = %1$.2f руб.</string>
+    <string name="numbers_of_liters_not_specified_toast">Укажите количество литров!</string>
+    <string name="gasoline_brand_not_selected_toast">Выберите марку бензина!</string>
 </resources>
